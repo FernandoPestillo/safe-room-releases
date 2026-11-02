@@ -2,7 +2,7 @@
 
 Pré-lançamento para um grupo inicial de amigos. Este repositório contém somente instaladores, assinaturas, manifesto de atualização e orientações. O código-fonte permanece privado.
 
-Os primeiros artefatos estão em homologação e serão disponibilizados em **Releases**, identificados como pré-lançamento. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
+**Versão atual: 0.5.2 — pré-lançamento público.** [Baixar instalador Windows x64](https://github.com/FernandoPestillo/safe-room-releases/releases/download/preview/Safe-Room-Windows-x64-setup.exe) · [Notas e assinatura da versão](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/v0.5.2). O download é público e não exige conta GitHub. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
 
 ## Windows
 
@@ -20,6 +20,6 @@ Na tela principal, crie um servidor ou selecione **Entrar em servidor** e inform
 - Não há backup externo nem proteção adequada contra perda definitiva dos dados. Não se declara recuperação de desastres. O responsável decidiu prosseguir com este pré-lançamento aceitando esse risco.
 - A assinatura do updater verifica autenticidade do pacote; não equivale a Authenticode ou à identificação do editor pelo Windows.
 
-O updater assinado está sendo homologado antes da disponibilização final. Não instalar atualizações durante chamadas ou compartilhamentos sem antes encerrá-los.
+O pacote e o manifesto assinados estão disponíveis no canal preview. Para atualizar pelo aplicativo, abra **Configurações → Atualizações → Verificar**, confira as notas, baixe e escolha **Instalar e reiniciar**. Encerre chamadas e compartilhamentos antes da instalação. O teste instalado 0.5.1 → 0.5.2 está em validação final; assinatura isolada não equivale à homologação completa do ciclo.
 
 Não envie senhas, tokens, arquivos de perfil ou capturas privadas em relatos de falha.
