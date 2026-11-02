@@ -20,6 +20,6 @@ Na tela principal, crie um servidor ou selecione **Entrar em servidor** e inform
 - Não há backup externo nem proteção adequada contra perda definitiva dos dados. Não se declara recuperação de desastres. O responsável decidiu prosseguir com este pré-lançamento aceitando esse risco.
 - A assinatura do updater verifica autenticidade do pacote; não equivale a Authenticode ou à identificação do editor pelo Windows.
 
-O pacote e o manifesto assinados estão disponíveis no canal preview. Para atualizar pelo aplicativo, abra **Configurações → Atualizações → Verificar**, confira as notas, baixe e escolha **Instalar e reiniciar**. Encerre chamadas e compartilhamentos antes da instalação. O teste instalado 0.5.1 → 0.5.2 está em validação final; assinatura isolada não equivale à homologação completa do ciclo.
+O pacote e o manifesto assinados estão disponíveis no canal preview. Para atualizar pelo aplicativo, abra **Configurações → Atualizações → Verificar**, confira as notas, baixe e escolha **Instalar e reiniciar**. Encerre chamadas e compartilhamentos antes da instalação. A atualização instalada 0.5.1 → 0.5.2 foi exercitada pelo aplicativo, com sessão e histórico preservados. Isso não substitui os testes físicos e cenários prolongados ainda pendentes.
 
 Não envie senhas, tokens, arquivos de perfil ou capturas privadas em relatos de falha.
