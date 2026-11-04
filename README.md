@@ -2,7 +2,16 @@
 
 Pré-lançamento para um grupo inicial de amigos. Este repositório contém somente instaladores, assinaturas, manifesto de atualização e orientações. O código-fonte permanece privado.
 
-**Versão atual: 0.5.2 — pré-lançamento público.** [Baixar instalador Windows x64](https://github.com/FernandoPestillo/safe-room-releases/releases/download/preview/Safe-Room-Windows-x64-setup.exe) · [Notas e assinatura da versão](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/v0.5.2). O download é público e não exige conta GitHub. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
+**Versão atual: 0.5.6 — pré-lançamento público.** [Baixar instalador Windows x64](https://github.com/FernandoPestillo/safe-room-releases/releases/download/preview/Safe-Room-Windows-x64-setup.exe) · [Notas e assinatura da versão](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/v0.5.6). O download é público e não exige conta GitHub. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
+
+## Novidades da 0.5.6
+
+- Cartão de perfil com moldura contínua e cantos consistentes na prévia e ao abrir um usuário.
+- **Faixas de nome gratuitas no Turbo:** Aurora, Órbita e Circuito atrás do nome na lista de membros, com cores, intensidade, ritmo e movimento próprios.
+- Ajustes de tipografia, contraste, espaçamento e proporções, preservando os temas Grafite e Meia-noite.
+- Listas grandes com rolagem dentro da coluna e animações das faixas pausadas fora da área visível. Movimento reduzido respeitado.
+
+Para personalizar, abra **Configurações**, clique no selo **Turbo** fixo no cartão de perfil e escolha **Faixa**. Nome, avatar, moldura, fundo e faixa têm controles independentes. As alterações só são publicadas ao salvar.
 
 ## Windows
 
@@ -20,6 +29,7 @@ Na tela principal, crie um servidor ou selecione **Entrar em servidor** e inform
 - Não há backup externo nem proteção adequada contra perda definitiva dos dados. Não se declara recuperação de desastres. O responsável decidiu prosseguir com este pré-lançamento aceitando esse risco.
 - A assinatura do updater verifica autenticidade do pacote; não equivale a Authenticode ou à identificação do editor pelo Windows.
 
-O pacote e o manifesto assinados estão disponíveis no canal preview. Para atualizar pelo aplicativo, abra **Configurações → Atualizações → Verificar**, confira as notas, baixe e escolha **Instalar e reiniciar**. Encerre chamadas e compartilhamentos antes da instalação. A atualização instalada 0.5.1 → 0.5.2 foi exercitada pelo aplicativo, com sessão e histórico preservados. Isso não substitui os testes físicos e cenários prolongados ainda pendentes.
+O pacote e o manifesto assinados estão disponíveis no canal preview. Para atualizar pelo aplicativo, abra **Configurações → Atualizações → Verificar agora**, confira as notas, escolha **Baixar atualização** e depois **Instalar e reiniciar**. Encerre chamadas e compartilhamentos antes da instalação. A atualização instalada 0.5.1 → 0.5.2 foi exercitada pelo aplicativo, com sessão e histórico preservados. Isso não substitui os testes físicos e cenários prolongados ainda pendentes.
 
 Não envie senhas, tokens, arquivos de perfil ou capturas privadas em relatos de falha.
+
