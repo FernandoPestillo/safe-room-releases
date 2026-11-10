@@ -2,16 +2,17 @@
 
 Pré-lançamento para um grupo inicial de amigos. Este repositório contém somente instaladores, assinaturas, manifesto de atualização e orientações. O código-fonte permanece privado.
 
-**Versão atual: 0.5.6 — pré-lançamento público.** [Baixar instalador Windows x64](https://github.com/FernandoPestillo/safe-room-releases/releases/download/preview/Safe-Room-Windows-x64-setup.exe) · [Notas e assinatura da versão](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/v0.5.6). O download é público e não exige conta GitHub. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
+**Versão atual: 0.5.8 — pré-lançamento público.** [Baixar instalador Windows x64](https://github.com/FernandoPestillo/safe-room-releases/releases/download/preview/Safe-Room-Windows-x64-setup.exe) · [Notas e assinatura da versão](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/v0.5.8). O download é público e não exige conta GitHub. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
 
-## Novidades da 0.5.6
+## Novidades da 0.5.8
 
-- Cartão de perfil com moldura contínua e cantos consistentes na prévia e ao abrir um usuário.
-- **Faixas de nome gratuitas no Turbo:** Aurora, Órbita e Circuito atrás do nome na lista de membros, com cores, intensidade, ritmo e movimento próprios.
-- Ajustes de tipografia, contraste, espaçamento e proporções, preservando os temas Grafite e Meia-noite.
-- Listas grandes com rolagem dentro da coluna e animações das faixas pausadas fora da área visível. Movimento reduzido respeitado.
+- **Conversas privadas por texto:** converse com outra pessoa sem criar ou entrar em uma comunidade. Abra pelo perfil, pela Home ou pelo identificador compartilhado pela pessoa, com histórico e entrega em tempo real.
+- **Convites clicáveis:** confira a comunidade e confirme a entrada. Links externos abrem uma página HTTPS com o botão **Abrir no Safe Room**; códigos antigos continuam aceitos.
+- **Home independente:** acesse pelo ícone do aplicativo para ver amigos online e dicas, sem exibir o último canal.
+- Engrenagens mais reconhecíveis, switches nas opções e controles deslizantes com extremos e percentuais corrigidos.
+- Mantém as faixas de nome, molduras e demais personalizações do Turbo.
 
-Para personalizar, abra **Configurações**, clique no selo **Turbo** fixo no cartão de perfil e escolha **Faixa**. Nome, avatar, moldura, fundo e faixa têm controles independentes. As alterações só são publicadas ao salvar.
+As conversas privadas usam a VPS para entregar e guardar mensagens, restritas às duas contas pela API. Não há criptografia de ponta a ponta. Compartilhe seu identificador com a pessoa com quem deseja conversar.
 
 ## Windows
 
@@ -19,7 +20,7 @@ O instalador é para Windows x64 com WebView2. O usuário não precisa instalar 
 
 Após instalar, use **Criar conta**, informe nome, email, senha e confirmação. A senha precisa ter pelo menos 8 caracteres, uma maiúscula, uma minúscula e um número de 0 a 9; símbolos são opcionais. O email ainda não é verificado e não há recuperação por email implementada.
 
-Na tela principal, crie um servidor ou selecione **Entrar em servidor** e informe o convite. Escolha um canal de texto ou voz. Câmera e compartilhamento exigem seleção e confirmação locais.
+Na tela principal, use **Conversas privadas** para falar diretamente com outra pessoa, ou crie um servidor para conversar em comunidade. Para entrar em um servidor, abra um link de convite ou selecione **Entrar em servidor** e informe o convite; confira a prévia e confirme. Escolha um canal de texto ou voz. Câmera e compartilhamento exigem seleção e confirmação locais.
 
 ## Limitações conhecidas
 
@@ -32,4 +33,5 @@ Na tela principal, crie um servidor ou selecione **Entrar em servidor** e inform
 O pacote e o manifesto assinados estão disponíveis no canal preview. Para atualizar pelo aplicativo, abra **Configurações → Atualizações → Verificar agora**, confira as notas, escolha **Baixar atualização** e depois **Instalar e reiniciar**. Encerre chamadas e compartilhamentos antes da instalação. A atualização instalada 0.5.1 → 0.5.2 foi exercitada pelo aplicativo, com sessão e histórico preservados. Isso não substitui os testes físicos e cenários prolongados ainda pendentes.
 
 Não envie senhas, tokens, arquivos de perfil ou capturas privadas em relatos de falha.
+
 
