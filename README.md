@@ -1,5 +1,14 @@
 # Safe Room — downloads
 
+## Cliente nativo em Rust
+
+**Safe Room Native 0.6.0 para Windows x64.** [Baixar instalador](https://github.com/FernandoPestillo/safe-room-releases/releases/download/native-v0.6.0/Safe-Room-Native-0.6.0-x64-setup.exe) · [Versão portátil, notas e checksums](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/native-v0.6.0).
+
+O aplicativo consulta o canal nativo ao abrir e em **Configurações → Atualizações**. A página da versão oferece o instalador para atualização manual.
+
+## Cliente Tauri
+
+
 Pré-lançamento para um grupo inicial de amigos. Este repositório contém somente instaladores, assinaturas, manifesto de atualização e orientações. O código-fonte permanece privado.
 
 **Versão atual: 0.5.8 — pré-lançamento público.** [Baixar instalador Windows x64](https://github.com/FernandoPestillo/safe-room-releases/releases/download/preview/Safe-Room-Windows-x64-setup.exe) · [Notas e assinatura da versão](https://github.com/FernandoPestillo/safe-room-releases/releases/tag/v0.5.8). O download é público e não exige conta GitHub. Não é uma versão stable nem uma afirmação de homologação completa em dois computadores.
